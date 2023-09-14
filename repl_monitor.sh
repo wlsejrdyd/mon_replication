@@ -2,14 +2,14 @@
 
 DBNAME="deok"
 DBUSER="deok"
-DBPASS="deok00##"
+DBPASS=""
 MYSQLPATH="/usr/local/mysql/bin/mysql"
 MYSQL="$MYSQLPATH -u $DBUSER -p${DBPASS} $DBNAME"
 
-HOST="NOWCOMPANY"
-IP1="222.122.197.13"
-IP2="222.122.197.14"
-IP3="183.111.103.1"
+HOST="고객사이림"
+IP1="Master DB IP"
+IP2="Slave DB IP"
+IP3="??"
 
 GET="/usr/bin/zabbix_get"
 MASTER="repl.master"
